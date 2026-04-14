@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "history-story-video-skills",
+  "description": "Claude Code marketplace entry for the History Story Video skill.",
+  "owner": {
+    "name": "XuQuan"
+  },
+  "plugins": [
+    {
+      "name": "history-story-video",
+      "description": "Turn a historical story into a short-video storyboard package with protagonist design, scene prompts, and narration.",
+      "source": "./",
+      "skills": [
+        "./skills/history-story-video"
+      ],
+      "homepage": "https://github.com/WoodyXu/history-story-video"
+    }
+  ]
+}

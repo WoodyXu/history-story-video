@@ -1,0 +1,8 @@
+interface:
+  display_name: "历史故事分镜"
+  short_description: "把历史事件拆成稳定可生产的短视频分镜包"
+  brand_color: "#8F5A33"
+  default_prompt: "使用 $history-story-video 把《鸿门宴》拆成 3-5 个关键分镜，并按 skill 约定生成目录和素材。"
+
+policy:
+  allow_implicit_invocation: true
